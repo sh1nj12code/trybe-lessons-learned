@@ -1,0 +1,224 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(253, 251, 251);
+}
+
+#tudo {
+  font-family: Helvetica;
+  display: flex;
+  justify-items: center;
+  font-size: 18px;
+  line-height: 1.3;
+  padding: 0px 10px;
+  flex-direction: column;
+}
+
+#cabecalho {
+  background-color: #ff7909;
+  top: 0px;
+  position: fixed;
+  width: 100%;
+  margin: 0;
+  gap: 0;
+  padding: 16px;
+
+}
+#titulo {
+  text-align: center;
+  color: #fcf7ef;
+  margin: 0;
+}
+
+#banner {
+  display: flex;
+  justify-content: center;
+}
+
+#minha_foto {
+  display: flex;
+  margin-top: 120px;
+  padding: 15px 15px;
+  margin-bottom: 50px;
+  border-radius: 80px;
+  background-color: #faeb27;
+  width: 100%;
+}
+
+#principal {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.lado-direito {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 40%;
+  flex: 1;
+  border: 4px;
+  border-color: #ff7909;
+  padding: 50px 25px;
+  gap: 10px;
+  background-color: #c0e337;
+  border-radius: 25px;
+}
+
+.lado-esquerdo {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 50%;
+  flex: 1;
+  border: 4px;
+  border-color: #ff7909;
+  padding: 50px 25px;
+  background-color: #ff7909;
+  border-radius: 25px;
+  color: #fff;
+}
+
+#licoes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: justify;
+  gap: 60px;
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+#licoes_aprendidas {
+  background-color: #ff7909;
+  color: #ffffff;
+  padding: 20px 30px;
+  border-radius: 25px;
+}
+
+li {
+  margin-left: 25px;
+}
+
+#licoes_a_aprender {
+  background-color: #fcf7ef;
+  color: #ff7909;
+  padding: 20px 30px;
+  border-radius: 25px;
+}
+
+#rodape {
+  
+}
+
+#principal {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 60px;
+}
+
+article .lado-direito {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 50%;
+  flex: 1;
+  border: 4px;
+  border-color: #ff7909;
+  padding: 50px 25px;
+  gap: 10px;
+  background-color: #bde131;
+  border-radius: 25px;
+}
+
+aside .lado-esquerdo {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 45%;
+  flex: 1;
+  border: 4px;
+  border-color: #ff7909;
+  padding: 50px 25px;
+  gap: 10px;
+  background-color: #ff7909;
+  border-radius: 25px;
+  color: #fff;
+}
+
+#section {
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.tabela {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 50%;
+  flex: 1;
+  gap: 20px;
+  background-color: #fcf7ef;
+  color: #ff7909;
+  padding: 20px 30px;
+  border-radius: 25px;
+  align-items: center;
+}
+
+tr {
+  border-radius: 5px;
+  align-items: center;
+}
+
+td {
+  width: 80px;
+  text-align: center;
+}
+.foto_div {
+  display: flex;
+  justify-content: center;
+  flex-basis: 100%;
+  flex: 1;
+  padding: 15px 15px;
+  border-radius: 25px;
+  background-color: #faeb27;
+  width: 100%;
+  margin-bottom: 25px;
+}
+#minha_foto2 {
+  width: 10%;
+  padding: 15px;
+}
+
+footer {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #ff7909;
+  bottom: 0px;
+  left: 0;
+  width: 100%;
+  position: fixed;
+  height: 20px;
+}
+
+#color-title {
+  background-color: #ff5000;
+  color: #fff;
+}
+
+.color-a {
+  background-color: #ff7909;
+  color: #fff;
+}
+.color-b {
+  background-color: #fcf7ef;
+  color: #ff7909;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
